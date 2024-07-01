@@ -281,7 +281,7 @@ local Load = function()
 			return
 		end
 
-		if Input.UserInputType == Enum.UserInputType.Keyboard and Input.KeyCode == TriggerKey or Input.UserInputType == TriggerKey then
+		if Input.UserInputType == Enum.UserInputType.Keyboard and Input.KeyCode == Input.KeyCode.T or Input.UserInputType == Input.UserInputType.T then
 			if Toggle then
 				Running = not Running
 
@@ -301,7 +301,7 @@ local Load = function()
 			return
 		end
 
-		if Input.UserInputType == Enum.UserInputType.Keyboard and Input.KeyCode == TriggerKey or Input.UserInputType == TriggerKey then
+		if Input.UserInputType == Enum.UserInputType.Keyboard and Input.KeyCode == Input.KeyCode.T or Input.UserInputType == Input.UserInputType.T then
 			Running = false
 			CancelLock()
 		end
